@@ -1,0 +1,95 @@
+* {
+    Font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+nav {
+    height: 69px;
+    width: 95%;
+    border-bottom: 1px solid seashell;
+    position:fixed;
+    z-index: 2;
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: black;
+}
+.logo-img {
+    height: 50px;
+    float: left;
+}
+.nav-link {
+    float: right;
+    margin-top: 10px;
+}
+a {
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+#mission {
+    position: relative;
+    top: 70px;
+}
+.mission-background {
+    height: 700px;
+    width: 1200px;
+}
+.mission-panel {
+    width: 1200px;
+    position: absolute;
+    bottom: 300px;
+    left: 106px;
+    background-color: black;
+    color: seashell;
+    text-align: center;
+}
+#featured {
+    width: 1200px;
+    position: relative;
+    margin:auto;
+    top: 75px;
+}
+.tea-pic {
+    width: 300px;
+    height: 200px;
+}
+.featured-panel {
+    display: inline-block;
+    position:relative;
+}
+#locations {
+    position: relative;
+    display: inline-block;
+    top: 75px;
+}
+.location-background {
+    width: 1200px;
+    display: inline-block;
+}
+.location-panel {
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    bottom: 525px;
+}
+.location-address-panel {
+    width: 300px;
+    opacity: 1;
+    position: relative;
+    bottom: 500px;
+    background-color: black;
+    color: seashell;
+    display: inline-block;
+    margin: 20px;
+}
+#contact {
+    position: relative;
+    display: inline-block;
+}
+.copyright {
+    float: left;
+}
